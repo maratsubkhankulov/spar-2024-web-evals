@@ -1,6 +1,6 @@
-# LLM agent evaluation system
+# spar-2024-web-evals
 
-There is a system for web-evaluation of the gpt agents.
+It is a system for web-evaluation of the gpt agents.
 This repository implements existing approaches and algorithms to measure ultimate abilities of the agents
 in the predefined tasks.
 
