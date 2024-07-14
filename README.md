@@ -1,5 +1,11 @@
 # spar-2024-web-evals
 
+## How to launch chat app
+
+```
+python3 chat.py
+```
+
 ## How to run playwright test and show trace
 
 ```
