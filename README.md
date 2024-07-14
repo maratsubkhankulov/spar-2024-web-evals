@@ -1,7 +1,7 @@
-# LLM agent system
+# LLM agent evaluation system
 
 There is a system for web-evaluation of the gpt agents.
-This repository implements existing approaches and algorithms to measure ultimate abilities of the agents 
+This repository implements existing approaches and algorithms to measure ultimate abilities of the agents
 in the predefined tasks.
 
 ## Lift off and work cli

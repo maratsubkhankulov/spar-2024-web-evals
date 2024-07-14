@@ -1,4 +1,3 @@
-import re
 from typing import Any
 
 from langchain_core.language_models import BaseChatModel
@@ -77,7 +76,7 @@ def agent(
 @task
 def translate() -> Task:
     return Task(
-        dataset=json_dataset("translate.jsonl"),
+        dataset=json_dataset("/app/tests/inspect_ai/translate/translate.jsonl"),
         plan=agent(),
         scorer=model_graded_qa(),
     )
