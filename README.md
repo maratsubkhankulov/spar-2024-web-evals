@@ -8,7 +8,6 @@ in the predefined tasks.
 1. Start
   * fill `.env_template`
   * `make create_env`
-  * `make copy_config`
   * turn on vpn)))
 
 2. Lift off:
