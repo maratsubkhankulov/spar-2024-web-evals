@@ -1,12 +1,15 @@
 # spar-2024-web-evals
 
-## How to launch chat app
+This is a system for web-evaluation of the gpt agents.
+This repository implements existing approaches and algorithms to benchmark LLM-based agents in a web environment.
+
+## Launch chat app
 
 ```
 python3 chat.py
 ```
 
-## How to run playwright test and show trace
+## Run example playwright test
 
 ```
 pytest test_playwright_example.py --tracing on
@@ -15,3 +18,17 @@ pytest test_playwright_example.py --tracing on
 ```
 playwright show-trace test-results/test-playwright-example-py-test-has-title-chromium/trace.zip
 ```
+
+## Run inspect eval for translation task
+
+1. Start
+  * fill `.env_template`
+  * `make create_env`
+  * turn on vpn)))
+
+2. Lift off:
+  * `make run_agent`
+  * `localhost:8888` jupyter env for experiments and a presentation of the abilities (./notebooks/agent-preview.ipynb)
+
+3. Turn off
+  `make stop`

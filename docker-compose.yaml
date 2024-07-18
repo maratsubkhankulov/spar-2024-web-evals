@@ -1,0 +1,16 @@
+services:
+    gpt_web-agent:
+        container_name: gpt_web-agent
+        build: docker/app/.
+        command: make jupyter
+        ports:
+            - 8888:8888
+            - 7580:7575
+        volumes:
+            - .:/app
+        image: akkadeeemikk/agent-web-eval
+        env_file:
+            - .env
+
+
+
