@@ -7,7 +7,6 @@ deploy/ansible/playbook
 .Trash-0
 
 inspect_ai_git
-**/log
 **/logs
 
 # Byte-compiled / optimized / DLL files
